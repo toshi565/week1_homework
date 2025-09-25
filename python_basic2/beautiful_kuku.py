@@ -8,5 +8,5 @@ if row == 0 or column == 0:
 else:
     for i in range(1, row + 1):
         for j in range(1, column + 1):
-            print(f" {j:>2} x{i:>2} = {i * j:>2}", end=" | ")
+            print(f"{j} x {i} = {i * j:2d}", end=" | ")
         print()
